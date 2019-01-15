@@ -1,0 +1,61 @@
+.background{
+  position: relative;
+}
+.top {
+  position :absolute;
+  top:30px;
+  display: flex;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+.title {
+  font-family: 'Ewert', cursive;
+  font-size: 80px;
+  margin: 0 0;
+  padding-left: 10px;
+}
+.kamon_img{
+  width: 100px;
+  height: 100px;
+}
+.navbar{
+  position: absolute;
+  top: 150px;
+  display: flex;
+  animation-name: fadein;
+  animation-duration: 6s;
+}
+.link{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 40px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+.link:hover {
+  color: red;
+}
+.link_list{
+  list-style: none;
+  display: flex;
+}
+.content{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 25px;
+  padding-inline-start: 40px;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  animation-name: fadein;
+  animation-duration: 7s;
+}
+
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
